@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PaisaMate</title>
+    <style>
+        :root {
+            --primary: #152C4F;
+            --primary-dark: #0D1B30;
+            --accent: #10B981;
+            --accent-light: #D1FAE5;
+            --text-main: #1F2937;
+            --text-muted: #4B5563;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --border: #E2E8F0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #FFFFFF;
+            padding: 40px 32px;
+            text-align: left;
+        }
+
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.12);
+            padding: 8px 16px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .logo-dot {
+            width: 10px;
+            height: 10px;
+            background-color: var(--accent);
+            border-radius: 50%;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #E2E8F0;
+            font-size: 15px;
+        }
+
+        .meta-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            background: #EDF2F7;
+            padding: 14px 32px;
+            font-size: 13px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .meta-bar strong {
+            color: var(--text-main);
+        }
+
+        .content {
+            padding: 36px 32px;
+        }
+
+        .highlight-box {
+            background-color: var(--accent-light);
+            border-left: 4px solid var(--accent);
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin-bottom: 28px;
+            font-size: 14.5px;
+            color: #065F46;
+        }
+
+        .highlight-box strong {
+            color: #047857;
+            display: block;
+            margin-bottom: 4px;
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--primary);
+            margin-top: 32px;
+            margin-bottom: 12px;
+            font-weight: 700;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: var(--primary-dark);
+            margin-top: 20px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 14px;
+            font-size: 15px;
+            color: var(--text-muted);
+        }
+
+        ul {
+            margin-bottom: 16px;
+            padding-left: 22px;
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        .permission-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px 0;
+            font-size: 14px;
+        }
+
+        .permission-table th, .permission-table td {
+            border: 1px solid var(--border);
+            padding: 12px;
+            text-align: left;
+        }
+
+        .permission-table th {
+            background-color: #F1F5F9;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .permission-table td code {
+            background: #E2E8F0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #0F172A;
+        }
+
+        footer {
+            background: #F8FAFC;
+            border-top: 1px solid var(--border);
+            padding: 24px 32px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header, .content, .meta-bar, footer {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-badge">
+                <span class="logo-dot"></span>
+                <span>PaisaMate • Privacy & Data Protection</span>
+            </div>
+            <h1>Privacy Policy for PaisaMate</h1>
+            <p>Your financial records remain strictly confidential, secure, and under your absolute control.</p>
+        </header>
+
+        <div class="meta-bar">
+            <div><strong>Application:</strong> PaisaMate - Personal Expense, Budget & Cash Book Manager</div>
+            <div><strong>Last Updated:</strong> October 16, 2026</div>
+            <div><strong>Contact:</strong> amirsaad031587@gmail.com</div>
+        </div>
+
+        <div class="content">
+            <div class="highlight-box">
+                <strong>Local-First & Zero Data Selling Commitment</strong>
+                PaisaMate is built with a local-first architecture. Your income, expenses, accounts, budgets, and memos are saved locally on your device. We do not sell, rent, or monetize your personal financial data to third parties, data brokers, or advertisers.
+            </div>
+
+            <h2>1. Introduction</h2>
+            <p>
+                This Privacy Policy explains how <strong>PaisaMate</strong> ("we", "us", or "our") handles user information when you use our mobile application. We respect your privacy and are committed to safeguarding personal financial details entered in the app.
+            </p>
+
+            <h2>2. Information We Collect</h2>
+            <h3>A. Information You Provide Voluntarily</h3>
+            <ul>
+                <li><strong>Financial Records:</strong> Transaction amounts, dates, categories, notes, account balances, bills, and budget limits entered to track personal and household finances.</li>
+                <li><strong>Account Credentials:</strong> Name and email address if you voluntarily register or sign in using an account.</li>
+                <li><strong>Cash Calculator & Memos:</strong> Denomination counts and financial notes saved within the app utility modules.</li>
+            </ul>
+
+            <h3>B. Automatically Processed Information</h3>
+            <ul>
+                <li><strong>Device Information:</strong> Basic device parameters (OS version, device model) utilized strictly for rendering UI layouts, dark/light themes, and biometric hardware verification.</li>
+                <li><strong>Anonymous Diagnostics:</strong> Crash logs or anonymous performance indicators to resolve software bugs and improve app stability.</li>
+            </ul>
+
+            <h2>3. Biometric Authentication & Security</h2>
+            <p>
+                PaisaMate offers optional biometric authentication (Fingerprint and Face Unlock) using Android's native <code>BiometricPrompt</code> API to prevent unauthorized access when opening the app.
+            </p>
+            <ul>
+                <li><strong>Zero Biometric Data Transfer:</strong> Biometric authentication is performed entirely on your device hardware by the Android OS Trusted Execution Environment (TEE) or Secure Element.</li>
+                <li><strong>No Access by the App:</strong> PaisaMate never receives, stores, or transmits your actual fingerprint or facial scan data. The operating system only returns a boolean verification status ("Success" or "Failed").</li>
+            </ul>
+
+            <h2>4. Device Permissions</h2>
+            <p>PaisaMate requests only the minimal permissions required to deliver secure and stable functionality:</p>
+            <table class="permission-table">
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Type</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>android.permission.USE_BIOMETRIC</code></td>
+                        <td>Install-time</td>
+                        <td>Enables local fingerprint and face unlock authentication through Android BiometricPrompt.</td>
+                    </tr>
+                    <tr>
+                        <td><code>android.permission.INTERNET</code></td>
+                        <td>Install-time</td>
+                        <td>Allows optional cloud account authentication, backup sync, and loading test advertisement assets.</td>
+                    </tr>
+                    <tr>
+                        <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+                        <td>Install-time</td>
+                        <td>Checks network connectivity to toggle between online and offline data caching gracefully.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Note:</strong> PaisaMate does <em>not</em> request access to your contacts, SMS messages, camera, GPS location, microphone, or external storage files.</p>
+
+            <h2>5. Third-Party Services & Advertising</h2>
+            <p>PaisaMate may interface with trusted third-party SDKs strictly to support core infrastructure and development:</p>
+            <ul>
+                <li><strong>Google Play Services:</strong> Core application utilities and authentication.</li>
+                <li><strong>Google AdMob:</strong> Display of test banner/interstitial advertisements. AdMob may collect pseudonymous advertising identifiers subject to Google's Privacy Policy. You can opt out of personalized ads via your Android device settings (<em>Settings &gt; Google &gt; Ads</em>).</li>
+                <li><strong>Firebase Authentication & Firestore:</strong> Optional cloud synchronization if user chooses to sign in.</li>
+            </ul>
+
+            <h2>6. Data Storage, Retention & Deletion Rights</h2>
+            <p>You have complete control over your records at all times:</p>
+            <ul>
+                <li><strong>On-Device SQLite Storage:</strong> All records are stored locally within the app's sandboxed private storage.</li>
+                <li><strong>Data Export:</strong> You can export your full transaction history anytime as formatted CSV, structured JSON, or certified PDF statements.</li>
+                <li><strong>One-Click Reset / Data Wipe:</strong> The app includes a "Reset All Data" option in Settings, which permanently purges all local transactions, accounts, notes, and preferences immediately.</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+            <p>
+                PaisaMate is not directed to children under 13 years of age. We do not knowingly collect personal identifiable information from children. If you become aware that a child has provided us with personal data, please contact us immediately.
+            </p>
+
+            <h2>8. Changes to this Policy</h2>
+            <p>
+                We may periodically update our Privacy Policy. Any updates will be reflected with a revised "Last Updated" date at the top of this document and will be made available both online and directly within the application.
+            </p>
+
+            <h2>9. Contact Us</h2>
+            <p>
+                If you have questions, feedback, or concerns regarding your privacy or data handling within PaisaMate, please contact our team:
+            </p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:amirsaad031587@gmail.com">amirsaad031587@gmail.com</a><br>
+                <strong>Developer:</strong> PaisaMate Development Team
+            </p>
+        </div>
+
+        <footer>
+            &copy; 2026 PaisaMate. All rights reserved. • Built for Pakistan & Global Users with Zero-Tracking Financial Privacy.
+        </footer>
+    </div>
+</body>
+</html>
